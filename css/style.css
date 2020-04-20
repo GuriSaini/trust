@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    scroll-behavior: smooth;
+    font-family: 'Fira Mono', monospace;
+    overflow-y: scroll;
+   
+}
+.banner-img img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.navbar{
+    background-color: #294c68;
+    
+}
+.navbar-brand img{
+    width: 15%;
+}
+.navbar a {
+    color: #ffffff;
+   
+}
+.navbar a span {
+    font-size: 23px;
+    padding: 6px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    margin: 5px;
+}
+.card-w {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.card-img-top {
+    width: 45%;
+    margin: auto;
+}
+.card-w-text{
+    color: #0077ff;
+}
+.card-w-text-body {
+    color: #464444;
+    font-size: 14px;
+    font-weight: 400;
+}
+.banner-img-2 img{
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 52% 95%, 50% 100%, 47.5% 95%, 0% 95%);
+}
+
+.heading-why h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.line{
+    
+        width: 7%;
+        height: 2px;
+        background: aqua;
+        margin-left: 12%;
+        margin-top: -9px;
+    
+}
+.circle-img img{
+    width: 80%;
+ 
+}
+.heading h2{
+    font-size: 56px;
+    font-weight: 500;
+}
+.info p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+
+.footer-nav {
+    margin-top: 20%;
+}
+.footer-img img {
+    width: 63%;
+}
+canvas{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+}
+.footer-nav ul li {
+    padding: 5px;
+}
+.footer-nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner-img img{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-top: 28%;
+        /* overflow-y: hidden;
+        overflow-x: hidden; */
+    }
+    .heading h2{
+        font-size: 41px;
+        font-weight: 500;
+    }
+}

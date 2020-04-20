@@ -1,0 +1,78 @@
+.navbar{
+    background-color: #294c68;
+    
+}
+.navbar-brand img{
+    width: 15%;
+}
+.navbar a {
+    color: #ffffff;
+   
+}
+.navbar a span {
+    font-size: 23px;
+    padding: 6px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    margin: 5px;
+}
+.bg-dark {
+    background-color: #294c68!important;
+}
+.f-26{
+    font-size: 26px;
+    font-weight: 300;
+}
+.f-30{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.sb-btn{
+    width: 30%;
+    font-size: 22px;
+
+}
+.content-box{
+    overflow: auto;
+    height: 565px;
+    scroll-behavior: smooth;
+}
+.oh{
+    overflow: hidden;
+}
+@media (min-width: 576px) { 
+    
+    .content-box{
+        scroll-behavior: smooth;
+    }
+    .oh{
+        overflow: auto;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .content-box{
+        overflow: auto;
+        scroll-behavior: smooth;
+    }
+    .oh{
+        overflow: auto;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .content-box{
+        overflow: auto;
+        scroll-behavior: smooth;
+    }
+    .oh{
+        overflow: auto;
+    }
+ }
+
+
+@media (min-width: 1200px) { }
